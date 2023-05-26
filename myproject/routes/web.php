@@ -13,7 +13,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/index', function () {
+Route::get('/inde', function () {
     return view('index');
 });
 Route::get('/', [HomeController::class, 'checkUserType']);
